@@ -9,8 +9,6 @@ function App() {
   return (
     <>
       <div className="container">
-        <div className='logo'>
-        </div>
         <img src="../public/bayrak.png" alt="left-img" />
         <img src="../public/bayrak.png" alt="right-img" />
         <div className='text'>
@@ -18,7 +16,7 @@ function App() {
         <p>ZAFER BAYRAMI</p>
         <p>KUTLU OLSUN</p>
         <p>gazi mustafa kemal atatürk ve kahramanlarımıza sonsuz minnetle </p>
-         <div className='bottom-logo'>Web Sanatçısı | <img className='logo-img' src="../public/tayfuncakirwhitelogo.png" alt="" srcset="" /></div>
+         <div className='bottom-logo'> <p>Web Sanatçısı |</p> <img className='logo-img' src="../public/tayfuncakirwhitelogo.png" alt="" srcset="" /></div>
       </div>
       </div>
     </>
