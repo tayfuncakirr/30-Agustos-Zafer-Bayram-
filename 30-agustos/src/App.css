@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background:url(../public/ataturk.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.container {
+ position: relative;
+ display: flex;
+ align-items: flex-end;
+ justify-content: center;
+ width: 100%;
+ height: 100vh;
+}
+.container .logo {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  top:20px;
+  right: 20px;
+}
+ .logo-img {
+  width: 80px;
+}
+.container img:nth-child(2) {
+ position: absolute;
+ top:-180px;
+ left:-50px;
+ filter: drop-shadow(5px 8px 12px rgb(0,0,0));
+}
+.container img:nth-child(3) {
+ position: absolute;
+ transform:scaleX(-1);
+ top:-180px;
+ right:-50px;
+ filter: drop-shadow(5px 5px 8px rgb(0,0,0));
+}
+.text {
+  font-family: "roboto", sans-serif;
+  padding-bottom: 10px;
+  width: 850px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+.text p:nth-child(1){
+  color: rgb(175, 0, 0);
+  font-size:70px;
+  font-weight: 900;
+  text-shadow: 5px 8px 12px rgb(0,0,0);
+
+}
+.text p:nth-child(2){
+  color: rgb(238, 238, 238);
+  font-size:54px;
+  font-weight: 900;
+  text-shadow: 5px 8px 12px rgb(0,0,0);
+
+}
+.text p:nth-child(3){
+  color: rgb(238, 238, 238);
+  font-size:63px;
+  font-weight: 900;
+  text-shadow: 5px 8px 12px rgb(0,0,0);
+
+}
+.text p:nth-child(4){
+  font-family: "Pinyon Script", cursive;
+  color: rgb(238, 238, 238);
+  font-size:30px;
+  font-weight: 400;
+  text-shadow: 5px 8px 12px rgb(0,0,0);
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  position: relative;
+  z-index: 10  ;
+
+}
+.text .bottom-logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding:20px;
+  margin-top: 10px;
+  font-size: 25px;
+  font-family: "poppins", sans-serif;
+  color: #5f5f5f;
+  border:2px solid rgba(255,255,255,0.3);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+}
+.text .bottom-logo img {
+  margin-left: 20px;
+  width: 60px;
+}
